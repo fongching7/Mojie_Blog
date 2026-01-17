@@ -1,6 +1,6 @@
 ---
-date: '2016-05-05T21:48:51-07:00'
+date: '2026-01-16T21:48:51-07:00'
 title: About
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+  丰成，这是一个新的开始。让我开始真正地书写，写下任何事情，只需完成，即是胜利。
