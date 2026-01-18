@@ -1,5 +1,5 @@
 ---
-date: '2016-12-30T21:49:57-07:00'
+date: '2026-01-01T21:49:57-07:00'
 title: How to update this website and post
 ---
 
@@ -8,4 +8,4 @@ title: How to update this website and post
 3.  When in doubt, run `blogdown::check_site()`
 4.  run blogdown::build_site() to built the webpages
 5.  commit to GitHub and push to origin
-6.  The updated website will be ready for viewing.
+6.  The updated website will be ready for viewing at: <https://fongching.netlify.app/>
