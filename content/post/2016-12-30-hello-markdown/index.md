@@ -7,4 +7,5 @@ title: How to update this website and post
 2.  In the console, run `blogdown::serve_site()` from the console or equivalently, click on the RStudio addin "Serve Site" 
 3.  When in doubt, run `blogdown::check_site()`
 4.  run blogdown::build_site() to built the webpages
-5.  commit to GitHub and
+5.  commit to GitHub and push to origin
+6.  The updated website will be ready for viewing.
