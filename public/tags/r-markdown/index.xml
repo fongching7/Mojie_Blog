@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Markdown on Mojie</title>
+    <link>/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on Mojie</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/2020/12/01/hello-r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>/2020/12/01/hello-r-markdown/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(Orange)&#xD;&#xA;##  Tree       age         circumference  &#xD;&#xA;##  3:7   Min.   : 118.0   Min.   : 30.0  &#xD;&#xA;##  1:7   1st Qu.: 484.0   1st Qu.: 65.5  &#xD;&#xA;##  5:7   Median :1004.0   Median :115.0  &#xD;&#xA;##  2:7   Mean   : 922.1   Mean   :115.9  &#xD;&#xA;##  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  &#xD;&#xA;##        Max.   :1582.0   Max.   :214.0&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;img src=&#34;/2020/12/01/hello-r-markdown/index_files/figure-html/unnamed-chunk-2-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; /&gt;&#xD;&#xA;&lt;h1 id=&#34;r-markdown&#34;&gt;R Markdown&lt;/h1&gt;&#xA;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
