@@ -80,8 +80,15 @@
 <li>Run blogdown::build_site() to built the webpages</li>
 <li>Commit to GitHub and push to origin. If there is a lock file, use &ldquo;$ rm -f .git/index.lock&rdquo; to release it.</li>
 <li>The updated website will be ready for viewing at: <a href="https://fongching.netlify.app/">https://fongching.netlify.app/</a></li>
+<li>If the &ldquo;public&rdquo; folder not updated, run &ldquo;blogdown::build_site()&rdquo; or delete the &ldquo;public&rdquo; folder then try again.</li>
+<li>Make sure the date in the title of folder is the same in the post (&ldquo;index.md&rdquo; file). A better way to create a new post is through &ldquo;blogdown::new_post(title =&ldquo;XXXXXXXXXX&rdquo;) &quot;</li>
 </ol>
-<pre><code class="language-r">blogdown::serve_site()
+<p>Workflow in R code:</p>
+<pre><code class="language-r">blogdown::new_post(title =&quot;xxxxxxxx&quot;)
+
+blogdown::serve_site()
+
+# blogdown::stop_server()
 
 blogdown::check_site()
 

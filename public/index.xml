@@ -6,15 +6,8 @@
     <description>Recent content on Mojie</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 13:09:13 -0600</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>anxious mind</title>
-      <link>/2026/01/18/anxious-mind/</link>
-      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/2026/01/18/anxious-mind/</guid>
-      <description>&lt;p&gt;this is a test blog post.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>一个冬日</title>
       <link>/2026/01/17/%E4%B8%80%E4%B8%AA%E5%86%AC%E6%97%A5/</link>
@@ -51,13 +44,6 @@
       <description>&lt;p&gt;&lt;strong&gt;It goes like this.&lt;/strong&gt; This is my first blog post on this site, as an effort to built my own place so I do not dependent on other sites. However, this is not as straightforward as I thought it would be. Acctually, it took longer than I thought. Fortunately, I did it at the end.&lt;/p&gt;&#xA;&lt;p&gt;I am planning to pursue my dream as a writer anyway and would like a secret place to put my writing down as a draft. I somehow does not want to be confined in one place and let my writing to be owned by other website. And I also would like to have a copy of everything I write.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>template</title>
-      <link>/2026/01/14/template/</link>
-      <pubDate>Wed, 14 Jan 2026 01:27:13 -0600</pubDate>
-      <guid>/2026/01/14/template/</guid>
-      <description>&lt;p&gt;This is a template for a blog post.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>焦虑的心</title>
       <link>/2026/01/08/%E7%84%A6%E8%99%91%E7%9A%84%E5%BF%83/</link>
       <pubDate>Thu, 08 Jan 2026 21:27:13 -0600</pubDate>
@@ -69,7 +55,7 @@
       <link>/2026/01/01/how-to-update-this-website-and-post/</link>
       <pubDate>Thu, 01 Jan 2026 21:49:57 -0700</pubDate>
       <guid>/2026/01/01/how-to-update-this-website-and-post/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;Make a file in the content/post directory. The file name should be in the format YYYY-MM-DD-title/index.md, where YYYY-MM-DD is the date of the post, and title is a short descriptive title for the post.&lt;/li&gt;&#xA;&lt;li&gt;In the console, run &lt;code&gt;blogdown::serve_site()&lt;/code&gt; from the console or equivalently, click on the RStudio addin &amp;ldquo;Serve Site&amp;rdquo; &lt;/li&gt;&#xA;&lt;li&gt;When in doubt, run &lt;code&gt;blogdown::check_site()&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run blogdown::build_site() to built the webpages&lt;/li&gt;&#xA;&lt;li&gt;Commit to GitHub and push to origin. If there is a lock file, use &amp;ldquo;$ rm -f .git/index.lock&amp;rdquo; to release it.&lt;/li&gt;&#xA;&lt;li&gt;The updated website will be ready for viewing at: &lt;a href=&#34;https://fongching.netlify.app/&#34;&gt;https://fongching.netlify.app/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::serve_site()&#xD;&#xA;&#xD;&#xA;blogdown::check_site()&#xD;&#xA;&#xD;&#xA;blogdown::build_site()&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Make a file in the content/post directory. The file name should be in the format YYYY-MM-DD-title/index.md, where YYYY-MM-DD is the date of the post, and title is a short descriptive title for the post.&lt;/li&gt;&#xA;&lt;li&gt;In the console, run &lt;code&gt;blogdown::serve_site()&lt;/code&gt; from the console or equivalently, click on the RStudio addin &amp;ldquo;Serve Site&amp;rdquo; &lt;/li&gt;&#xA;&lt;li&gt;When in doubt, run &lt;code&gt;blogdown::check_site()&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run blogdown::build_site() to built the webpages&lt;/li&gt;&#xA;&lt;li&gt;Commit to GitHub and push to origin. If there is a lock file, use &amp;ldquo;$ rm -f .git/index.lock&amp;rdquo; to release it.&lt;/li&gt;&#xA;&lt;li&gt;The updated website will be ready for viewing at: &lt;a href=&#34;https://fongching.netlify.app/&#34;&gt;https://fongching.netlify.app/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;If the &amp;ldquo;public&amp;rdquo; folder not updated, run &amp;ldquo;blogdown::build_site()&amp;rdquo; or delete the &amp;ldquo;public&amp;rdquo; folder then try again.&lt;/li&gt;&#xA;&lt;li&gt;Make sure the date in the title of folder is the same in the post (&amp;ldquo;index.md&amp;rdquo; file). A better way to create a new post is through &amp;ldquo;blogdown::new_post(title =&amp;ldquo;XXXXXXXXXX&amp;rdquo;) &amp;quot;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Workflow in R code:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello R Markdown</title>

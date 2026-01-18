@@ -9,9 +9,17 @@ title: How to update this website and post
 4.  Run blogdown::build_site() to built the webpages
 5.  Commit to GitHub and push to origin. If there is a lock file, use "\$ rm -f .git/index.lock" to release it.
 6.  The updated website will be ready for viewing at: <https://fongching.netlify.app/>
+7.  If the "public" folder not updated, run "blogdown::build_site()" or delete the "public" folder then try again.
+8.  Make sure the date in the title of folder is the same in the post ("index.md" file). A better way to create a new post is through "blogdown::new_post(title ="XXXXXXXXXX") "
+
+Workflow in R code:
 
 ``` r
+blogdown::new_post(title ="xxxxxxxx")
+
 blogdown::serve_site()
+
+# blogdown::stop_server()
 
 blogdown::check_site()
 
