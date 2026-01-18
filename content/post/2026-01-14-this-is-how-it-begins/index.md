@@ -1,6 +1,6 @@
 ---
 date: '2026-01-14T21:27:13-06:00'
-title: 这样开始吧
+title: 这样开始
 ---
 
 **It goes like this.** This is my first blog post on this site, as an effort to built my own place so I do not dependent on other sites. However, this is not as straightforward as I thought it would be. Acctually, it took longer than I thought. Fortunately, I did it at the end.
