@@ -19,7 +19,7 @@ blogdown::new_post(title ="xxxxxxxx")
 
 blogdown::serve_site()
 
-# blogdown::stop_server()
+blogdown::stop_server()
 
 blogdown::check_site()
 
