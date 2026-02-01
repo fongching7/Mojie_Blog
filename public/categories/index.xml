@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mojie</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Mojie</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活、散记</title>
+      <link>/categories/%E7%94%9F%E6%B4%BB%E6%95%A3%E8%AE%B0/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/%E7%94%9F%E6%B4%BB%E6%95%A3%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>记录</title>
+      <link>/categories/%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
