@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.154.5">
+
+
+<title>LazySlide Tutorial: Step 1 Installation from miniforge to conda - Mojie</title>
+<meta property="og:title" content="LazySlide Tutorial: Step 1 Installation from miniforge to conda - Mojie">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/fongching7/Mojie_Blog">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">LazySlide Tutorial: Step 1 Installation from miniforge to conda</h1>
+
+    
+    <span class="article-date">2026-04-24</span>
+    
+
+    <div class="article-content">
+      
+      <p>Miniforge installed Python 3.13 as your base (newest version). But
+lazyslide depends on spatialdata, which hasn&rsquo;t caught up to Python 3.13
+yet &mdash; it still needs Python 3.10&ndash;3.12. This is exactly why conda
+environments exist. You don&rsquo;t install project packages into base. You
+create a separate mini-environment with the right Python version for
+each project.</p>
+<p>The fix &mdash; create a dedicated environment for lazyslide: Run these
+three commands one at a time:</p>
+<ul>
+<li><strong>Create an environment with Python 3.12</strong></li>
+</ul>
+<pre><code>conda create -n lazyslide python=3.12 -y
+</code></pre>
+<p>This makes a new isolated environment called lazyslide with Python 3.12.
+Takes ~30 seconds.</p>
+<ul>
+<li><strong>Activate it</strong></li>
+</ul>
+<pre><code>conda activate lazyslide
+</code></pre>
+<p>Your prompt will change from (base) to (lazyslide) &mdash; that means you&rsquo;re
+now inside the environment.</p>
+<ol>
+<li>
+<p>Install lazyslide</p>
+<pre><code>conda install -c conda-forge lazyslide -y
+</code></pre>
+<p>This will now succeed because Python 3.12 satisfies the dependency
+chain.</p>
+</li>
+<li>
+<p><strong>Install jupyter in this environment:</strong></p>
+<pre><code>conda install -c conda-forge jupyter -y
+</code></pre>
+</li>
+</ol>
+<p>So, now Every time you want to work with lazyslide:</p>
+<p><strong>Step 1: open Terminal and run:</strong></p>
+<pre><code>conda activate lazyslide
+</code></pre>
+<p>**Step 2:<strong>Launch Jupyter</strong></p>
+<pre><code>jupyter notebook
+</code></pre>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
